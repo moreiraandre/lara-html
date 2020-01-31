@@ -1,0 +1,3 @@
+<table {!! $attrTag !!}>
+    {!! $htmlPlugins !!}
+</table>

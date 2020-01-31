@@ -1,0 +1,1 @@
+<div {!! $attrTag !!}>{!! $htmlPlugins !!}</div>

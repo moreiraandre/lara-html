@@ -1,0 +1,3 @@
+<ul {!! $attrTag !!}>
+    {!! $htmlPlugins !!}
+</ul>

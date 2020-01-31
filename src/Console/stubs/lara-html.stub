@@ -1,0 +1,38 @@
+<?php
+
+namespace DummyNamespace;
+
+use MoreiraAndre\LaraHtml\Grid\ScreenFinal;
+use MoreiraAndre\LaraHtml\CustomScreenAbstract;
+
+class DummyClass extends CustomScreenAbstract
+{
+    /*
+     * Sobrescrevendo a configuração.
+     */
+    // public $template = '';
+    // public $extendedBlade = '';
+
+    /**
+     * @var null|mixed Dados para a tela.
+     */
+    private $data;
+
+    public function __construct($data = null)
+    {
+        $this->data = $data;
+    }
+
+    /**
+     * Escreva aqui os elementos da sua tela.
+     *
+     * @param ScreenFinal $screen
+     * @throws \Exception
+     */
+    public function run(ScreenFinal $screen)
+    {
+        $form = $screen->addForm('/');
+        $colNome = $form->addText('nome')->getCol();
+        $colNome->addButton('Enviar');
+    }
+}
