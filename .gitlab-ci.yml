@@ -1,0 +1,6 @@
+image: composer:latest
+
+test:
+  script:
+    - composer i
+    - ./bin/phpunit
