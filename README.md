@@ -1,3 +1,5 @@
+[![pipeline status](https://gitlab.com/moreiraandre/lara-html/badges/master/pipeline.svg)](https://gitlab.com/moreiraandre/lara-html/commits/master)
+
 # Laravel HTML
 Abstração do sistema de **grid responsiva** dos _frameworks CSS_ e seus **templates**.
 
