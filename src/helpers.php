@@ -16,7 +16,7 @@ if (!function_exists('lhtml')) {
      * @return string
      * @throws Exception
      */
-    function lhtml(string $customScreen, array $data = [])
+    function lhtml(string $customScreen, $data = null)
     {
         $customScreenName = $customScreen;
         if ($data)
